@@ -38,3 +38,12 @@ header{
 .zero{
   margin: 0px;
 }
+.itemsmenu{
+  overflow: auto;
+  white-space: nowrap;
+  cursor: grab;
+}
+
+.itemsmenu:active{
+  cursor: grabbing;
+}

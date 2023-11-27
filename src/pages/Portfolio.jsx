@@ -10,9 +10,9 @@ return(
             <h1 className="text-center">gaming</h1>
     </>):(<>
     <h1 className="text-center">coding</h1>
-        <section>
+        <section className="itemsmenu flex">
                 {portfolioimages.map(( items, index) =>(
-                         <article key={index}>
+                         <article key={index} >
                                  <PortfolioItems items={items} index={index}  />
                          </article>
                         

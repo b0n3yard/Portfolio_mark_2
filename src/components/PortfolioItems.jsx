@@ -10,8 +10,7 @@ function PortfolioItems({items,index}){
 
     return(
         <>
-            <article>
-
+            
             <h2>{items.title}</h2>
             
             {/* <Link to={{pathname:'/Inspection'}}></Link> */}
@@ -21,7 +20,6 @@ function PortfolioItems({items,index}){
     </Link>
             
             <p>{items.description}</p>
-            </article>
         </>
     )
 }

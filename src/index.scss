@@ -1,0 +1,40 @@
+$mainBackground: black;
+
+$faced: #2F4ced;
+html, body, #root{
+  height: 100%;
+
+}
+// global
+
+main{
+  flex: 1;
+  background-color: blue;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+}
+body{
+  background-color: #2f4ced;
+  margin:0;
+
+}
+header{
+  background-color: black;
+  color: red;
+  height: 75px;
+}
+// custom
+.flex{
+  display: flex;
+}
+.column{
+  flex-direction: column;
+}
+.text-center{
+  text-align: center;
+}
+.zero{
+  margin: 0px;
+}
